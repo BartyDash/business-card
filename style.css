@@ -26,7 +26,8 @@ body {
 }
 
 .person {
-
+  display: flex;
+  align-items: flex-start;
 }
 
 .person__info {
@@ -44,6 +45,10 @@ body {
     color: #545454;
     margin: 0;
     font-style: italic;
+}
+
+.person__picture {
+  margin-right: 32px;
 }
 
 .person__description {
